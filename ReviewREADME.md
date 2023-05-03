@@ -11,21 +11,21 @@
 - [ㅇ] 5.코드를 더 개선시켰나요?
 
 '''python
-def palindrome():
- 
-  word  = input(이름을 입력해 주세요 :   )      #단어 입력 받기   
-  reverse_word = ""
+ def palindrome():
 
-                                                  # reverse_word = word[::-1]
-  for i in range(1,len(word)+1):                  #단어의 길이만큼 반복하면서 뒤집은 단어 생성   
-  reverse_word += word[-i]
+   word  = input(이름을 입력해 주세요 :   )      #단어 입력 받기   
+   reverse_word = ""
 
-  print(뒤집힌 단어는:,reverse_word)
-  
-  if word == reverse_word:                        #뒤집힌 단어와 기존 단어가 일치하는지 판단   
-    print('입력된 단어는 회문입니다.')
-  else:
-    print('입력된 단어는 회문이 아닙니다.')
+                                                   # reverse_word = word[::-1]
+   for i in range(1,len(word)+1):                  #단어의 길이만큼 반복하면서 뒤집은 단어 생성   
+   reverse_word += word[-i]
+
+   print(뒤집힌 단어는:,reverse_word)
+
+   if word == reverse_word:                        #뒤집힌 단어와 기존 단어가 일치하는지 판단   
+     print('입력된 단어는 회문입니다.')
+   else:
+     print('입력된 단어는 회문이 아닙니다.')
 '''
 
 # 인덱싱을 활용하여 단어를 역순으로 잘 뒤집었습니다.
