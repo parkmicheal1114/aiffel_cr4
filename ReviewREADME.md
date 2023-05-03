@@ -15,7 +15,7 @@ def palindrome():
   reverse_word = 
 
   for i in range(1,len(word)+1):                  #단어의 길이만큼 반복하면서 뒤집은 단어 생성   
-    reverse_word += word[-i]
+  \t reverse_word += word[-i]
 
   print(뒤집힌 단어는:,reverse_word)
   
