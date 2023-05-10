@@ -1,6 +1,6 @@
 # Code Peer Review Templete
 - 코더 : 차정은  
-- 리뷰어 : 김재
+- 리뷰어 : 김재림
 
 # PRT(PeerReviewTemplate)
 각 항목을 스스로 확인하고 체크하고 확인하여 작성한 코드에 적용하세요.
