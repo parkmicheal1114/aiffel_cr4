@@ -18,55 +18,6 @@
 ```python
 # 사칙 연산 계산기
 
-        "입력값 : \n",
-        "\n",
-        "# 물고기 리스트\n",
-        "fish_list = [\n",
-        "    Fish(\"Nemo\", 3),\n",
-        "    Fish(\"Dory\", 5),\n",
-        "    Fish(\"Marlin\", 7),\n",
-        "    Fish(\"Bubbles\", 2),\n",
-        "    Fish(\"Gill\", 4)\n",
-        "]\n",
-        "\n",
-        "# 물고기들의 움직임 출력\n",
-        "print(\"Using Comprehension:\")\n",
-        "show_fish_movement_comprehension(fish_list)\n",
-        "\n",
-        "print(\"\\nUsing Iterator:\")\n",
-        "show_fish_movement_iterator(fish_list)\n",
-        "\n",
-        "---\n",
-        "\n",
-        "출력값 :\n",
-        "\n",
-        "Using Comprehension:\n",
-        "Nemo is swimming at 3 m/s\n",
-        "Dory is swimming at 5 m/s\n",
-        "Marlin is swimming at 7 m/s\n",
-        "Bubbles is swimming at 2 m/s\n",
-        "Gill is swimming at 4 m/s\n",
-        "\n",
-        "Using Iterator:\n",
-        "Nemo is swimming at 3 m/s\n",
-        "Dory is swimming at 5 m/s\n",
-        "Marlin is swimming at 7 m/s\n",
-        "Bubbles is swimming at 2 m/s\n",
-        "Gill is swimming at 4 m/s\n",
-        "```"
-      ],
-      "metadata": {
-        "id": "SBiagkGWekY4"
-      }
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "Nyf79NuGejJS"
-      },
-      "outputs": [],
-      "source": [
         "# Fish 클래스\n",
         "\n",
         "class Fish:\n",
