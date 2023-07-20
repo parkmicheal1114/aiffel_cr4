@@ -1,1 +1,4 @@
 *.h5
+
+/Exploration/flowers/
+/Exploration/models/
